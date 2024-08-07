@@ -1,0 +1,17 @@
+{
+  "name": "homeassistant-chatbot-zod",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "homeassistant-ws": "^0.2.2",
+    "openai": "^4.54.0",
+    "zod": "^3.23.8",
+    "zod-to-openai-tool": "^0.13.0"
+  }
+}
